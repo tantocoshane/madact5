@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTRATION PAGE"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USERNAME"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Username"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PASSWORD"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONFIRM PASSWORD"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FIRST NAME"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter First Name"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LAST NAME"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Last Name"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-MAIL ADDRESS"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter E-Mail"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BIRTHDATE"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvBirthdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date of Birth"
+            android:padding="12dp"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GENDER"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+
+        <RadioGroup
+            android:id="@+id/rgGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbMale"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Male"/>
+
+            <RadioButton
+                android:id="@+id/rbFemale"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Female"/>
+
+            <RadioButton
+                android:id="@+id/rbOthers"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Others"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Address"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTACT NUMBER"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etContactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Contact Number"
+            android:inputType="phone"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HOBBIES"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+
+        <CheckBox
+            android:id="@+id/cbHobby1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reading"/>
+
+        <CheckBox
+            android:id="@+id/cbHobby2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dancing"/>
+
+        <CheckBox
+            android:id="@+id/cbHobby3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Singing"/>
+
+        <CheckBox
+            android:id="@+id/cbHobby4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Drawing"/>
+
+        <CheckBox
+            android:id="@+id/cbHobby5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cooking"/>
+
+        <CheckBox
+            android:id="@+id/cbHobby6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Writing"/>
+
+        <CheckBox
+            android:id="@+id/cbHobby7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hiking"/>
+
+        <CheckBox
+            android:id="@+id/cbHobby8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Photography"/>
+
+        <CheckBox
+            android:id="@+id/cbHobby9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crafting"/>
+
+        <CheckBox
+            android:id="@+id/cbHobby10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gardening"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SECURITY QUESTIONS"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerQuestion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_marginTop="5dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerQuestion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_marginTop="5dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerQuestion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:id="@+id/ivProfilePhoto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="#E0E0E0"
+            android:scaleType="centerCrop"
+            android:contentDescription="Profile Photo"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnTakePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="CLICK HERE TO TAKE PHOTO"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#000000"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#000000"/>
+
+    </LinearLayout>
+</ScrollView>
